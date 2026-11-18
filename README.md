@@ -46,6 +46,10 @@ Create `flame.json` at the repository root:
 
 `guardianNames` is a credits roll. Put in it only names Guardians have agreed to have shown publicly. Nothing here is ever derived from the app, from anyone's reading, or from anything an Acolyte did — the app sends no data and has none to send.
 
+## The unit is Guardians, not currency
+
+The Temple's row is labelled **Circle of Guardians** and prints the pair bare, as `2/100` — no currency symbol anywhere. So `current` and `target` are counted in Guardians: who stands in the Circle now, and how many it would take.
+
 ## Turning the bar on
 
 Commit `flame.json` to `main`. Devices pick it up within six hours of their next look; a fresh install sees it at once.
